@@ -2,6 +2,9 @@ import React from 'react';
 import { MapPin, Users, History, Wallet } from 'lucide-react';
 import { formatCurrency, LightningIcon, RupeeIcon } from '../data/utils';
 import '../App.css';
+import { Menu } from "lucide-react";
+
+
 
 const Header = ({ currentScreen, setScreen, balance }) => {
   const navItems = [
